@@ -524,7 +524,6 @@ public class Main extends javax.swing.JFrame {
         genero=g.getSelectedItem().toString();
         Programa q=new Programa(nombre,puntuacion,Lanzamiento,tipo,genero);
         ta.setText(q.toString());
-        lis.add(q);
         } catch (Throwable e){
         msj2.setVisible(true);
         msj2.pack();
